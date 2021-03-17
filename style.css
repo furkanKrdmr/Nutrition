@@ -124,6 +124,9 @@ p {
     font-size: 0.9em;
     padding: 0 10px;
     display: block;
+}
+
+
     text-transform: uppercase;
     background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%; 
     transition: background-size .3s;
@@ -142,3 +145,100 @@ p {
     height: 100px;
     border: 1px solid #444;
   }
+
+
+/* début page Méthodes */
+
+.methode-title {
+  height: 10em;
+  width: 100%;
+  background-image: url('img/vegetables.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.methode-main-box {
+  box-sizing: border-box;
+  width: 80%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.methode-parag {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  margin: 2em;
+}
+
+.methode-image1 {
+  background-image: url('img/casserole.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-width: 30%;
+  border-radius: 40px;
+}
+
+.methode-image2 {
+  background-image: url('img/vegetables-2.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-width: 30%;
+  border-radius: 40px;
+}
+
+.methode-image3 {
+  background-image: url('img/vegetables.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-width: 30%;
+  border-radius: 40px;
+}
+
+.methode-parag-text {
+   min-width: 60%;
+   padding: 2em;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.methode-parag-text-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.methode-button {
+  background-color: rgb(238, 174, 227);
+  border-radius: 40px;
+  font-size: 2rem;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.methode-sentence {
+  font-size: 2rem;
+}
+
+.methode-button-plus {
+  background-color: rgb(238, 174, 227);
+  border-radius: 10px;
+  align-self: flex-end;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+
+
+/* fin page Méthodes */
