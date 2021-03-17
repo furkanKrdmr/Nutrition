@@ -94,6 +94,7 @@
   background-position: center;
   display: flex;
   min-width: 30%;
+  border-radius: 40px;
 }
 
 .methode-image2 {
@@ -102,6 +103,7 @@
   background-position: center;
   display: flex;
   min-width: 30%;
+  border-radius: 40px;
 }
 
 .methode-image3 {
@@ -110,6 +112,7 @@
   background-position: center;
   display: flex;
   min-width: 30%;
+  border-radius: 40px;
 }
 
 .methode-parag-text {
@@ -118,6 +121,12 @@
    display: flex;
    flex-direction: column;
    justify-content: space-around;
+}
+
+.methode-parag-text-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .methode-button {
@@ -131,3 +140,15 @@
 .methode-sentence {
   font-size: 2rem;
 }
+
+.methode-button-plus {
+  background-color: rgb(238, 174, 227);
+  border-radius: 10px;
+  align-self: flex-end;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+
+
+/* fin page Méthodes */
