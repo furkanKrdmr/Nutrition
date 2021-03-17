@@ -1,57 +1,107 @@
-.container {
-    width: 100%;
-    margin: 0 auto;
-  }
+html {
+  margin: 0;
+  padding: 0;
+}
 
-  header .container {
-    position: relative;
-  }
-  /* ---------------------------------------------------- */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container {
+  position: relative;
+}
+
+/* ---------------------------------------------------- */
 /*		top 	header
 /* ---------------------------------------------------- */
 
 #logo {
-    height: 80px;
-    padding: 20px 0;
-  }
+  height: 80px;
+  padding: 20px 0;
+}
 
-  #logo a {
-    display: block;
-  }
-  
+#logo a {
+  display: block;
+}
 
-  #nav {
-    background-color: #000;
-    height: 40px;
-  }
-  
 
-  #navigation {
-    float: left;
-    display: inline;
-    width: 740px;
-    position: relative;
-  }
+#nav {
+  background-color: #000;
+  height: 40px;
+}
 
-  #navigation ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
 
-  #navigation ul li {
-    float: left;
-  }
+#navigation {
+  float: left;
+  display: inline;
+  width: 740px;
+  position: relative;
+}
 
-  #navigation ul li ul {
-    display: none;
-  }
+#navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
-  #navigation ul li a {
-    color: #FFF;
-    text-decoration: none;
-    line-height: 40px;
-    font-size: 0.9em;
-    padding: 0 10px;
-    display: block;
-  }
+#navigation ul li {
+  float: left;
+}
+
+#navigation ul li ul {
+  display: none;
+}
+
+#navigation ul li a {
+  color: #FFF;
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 0.9em;
+  padding: 0 10px;
+  display: block;
+}
+
+.carousel {
+  background: url('img/agrumes.jpg') fixed center center no-repeat;
+  background-size: cover;
+  height: 12em;
+  width: 100%;
+}
+
+.imgrdv {
+  grid-column-start: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img {
+  grid-column-start: 2;
+  grid-row-start: -2;
+  grid-row-end: 2;
+  align-self: center;
+}
+
+.femme {
+  -webkit-border-radius: 40%;
+  border-radius: 40%;
+}
+
+.carteggle {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: -2;
+  grid-row-end: 2;
+  align-self: center;
+}
+
+.txt1 {
+  background-color: greenyellow;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 10px;
+}
