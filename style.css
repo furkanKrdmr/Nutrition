@@ -1,4 +1,4 @@
-html {
+body {
     margin: 0;
 }
 
@@ -11,48 +11,6 @@ p {
     margin: 0;
     color: #555;
     font-family: 'Ropa Sans', sans-serif;
-  }
-  
-
-  h1 {
-    font-size: 32px;
-    line-height: 36px;
-    font-weight: 500;
-  }
-  
-
-  h2 {
-    font-size: 22px;
-    line-height: 28px;
-    font-weight: 500;
-  }
-  
-
-  h3 {
-    font-size: 20px;
-    line-height: 26px;
-    font-weight: 500;
-  }
-  
-
-  h4 {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 500;
-  }
-  
-  /* line 22, ../sass/main.scss */
-  h5 {
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 500;
-  }
-  
-  /* line 23, ../sass/main.scss */
-  h6 {
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 500;
   }
 
 .container {
@@ -118,18 +76,13 @@ p {
   }
 
   #navigation ul li a {
-    color: inherit;
+    color: #000;
     text-decoration: none;
     line-height: 40px;
     font-size: 0.9em;
     padding: 0 10px;
     display: block;
-}
-
-
     text-transform: uppercase;
-    background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%; 
-    transition: background-size .3s;
   }
 
   #presentation {
