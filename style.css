@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header .container {
+    position: relative;
+  }
+  /* ---------------------------------------------------- */
+/*		top 	header
+/* ---------------------------------------------------- */
+
+#logo {
+    height: 80px;
+    padding: 20px 0;
+  }
+
+  #logo a {
+    display: block;
+  }
+  
+
+  #nav {
+    background-color: #000;
+    height: 40px;
+  }
+  
+
+  #navigation {
+    float: left;
+    display: inline;
+    width: 740px;
+    position: relative;
+  }
+
+  #navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  #navigation ul li {
+    float: left;
+  }
+
+  #navigation ul li ul {
+    display: none;
+  }
+
+  #navigation ul li a {
+    color: #FFF;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 0.9em;
+    padding: 0 10px;
+    display: block;
+  }
