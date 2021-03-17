@@ -149,6 +149,97 @@
   padding-right: 1em;
 }
 
+
+
+/* fin page Méthodes */
+
+
+/* début page Tarifs */
+
+.tarif-title {
+  height: 10em;
+  width: 100%;
+  background-image: url('img/vegetables.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarif-main-box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.tarif-all-subscription {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+}
+
+.tarif-subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  padding: 2em;
+  border: 2px solid black ;
+  background-color: rgb(228, 236, 218);
+  border-radius: 20px;
+  margin: 0.5em;
+}
+
+.tarif-month {
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 0em;
+}
+
+.tarif-subscription> p {
+  line-height: 0em;
+}
+
+.tarif-no-subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  border: 2px solid black ;
+  background-color: rgb(244, 232, 247);
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.tarif-sentence {
+  font-size: 2rem;
+}
+
+.tarif-button {
+  background-color: rgb(238, 174, 227);
+  border-radius: 40px;
+  font-size: 2rem;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+
+/* fin page Tarifs */
+
+
+
+/*  début media queries*/
+
+
 @media screen and (max-width: 834px) { 
   .methode-image1 { 
     display: none; 
@@ -187,6 +278,16 @@
     padding-left: 1.5em;
     padding-right: 1.5em;
   }
+  .tarif-sentence {
+    font-size: 1.2rem;
+  }
+  .tarif-button {
+    background-color: rgb(238, 174, 227);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
 }
 
-/* fin page Méthodes */
+/*  fin media queries*/
