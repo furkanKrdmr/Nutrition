@@ -70,24 +70,25 @@
   align-items: center;
 }
 
-.main-box {
+.methode-main-box {
   box-sizing: border-box;
   width: 80%;
   height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
 }
 
-.parag {
+.methode-parag {
   display: flex;
   flex-direction: row;
   height: 300px;
   margin: 2em;
 }
 
-.image1 {
+.methode-image1 {
   background-image: url('img/casserole.jpg');
   background-size: cover;
   background-position: center;
@@ -95,7 +96,7 @@
   min-width: 30%;
 }
 
-.image2 {
+.methode-image2 {
   background-image: url('img/vegetables-2.jpg');
   background-size: cover;
   background-position: center;
@@ -103,7 +104,7 @@
   min-width: 30%;
 }
 
-.image3 {
+.methode-image3 {
   background-image: url('img/vegetables.jpg');
   background-size: cover;
   background-position: center;
@@ -111,7 +112,7 @@
   min-width: 30%;
 }
 
-.parag-text {
+.methode-parag-text {
    min-width: 60%;
    padding: 2em;
    display: flex;
@@ -119,5 +120,14 @@
    justify-content: space-around;
 }
 
+.methode-button {
+  background-color: rgb(238, 174, 227);
+  border-radius: 40px;
+  font-size: 2rem;
+  padding-left: 2em;
+  padding-right: 2em;
+}
 
-
+.methode-sentence {
+  font-size: 2rem;
+}
