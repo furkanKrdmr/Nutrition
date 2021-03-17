@@ -84,7 +84,7 @@
 .methode-parag {
   display: flex;
   flex-direction: row;
-  height: 300px;
+  height: auto;
   margin: 2em;
 }
 
@@ -149,6 +149,44 @@
   padding-right: 1em;
 }
 
-
+@media screen and (max-width: 834px) { 
+  .methode-image1 { 
+    display: none; 
+  }
+  .methode-image2 { 
+    display: none; 
+  }
+  .methode-image3 { 
+    display: none; 
+  }
+  .methode-button-plus { 
+    display: none; 
+  }
+  .parag-text-par {
+    font-size: 0.7em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .methode-main-box {
+    width: 100%;
+  }
+  .methode-parag {
+    margin: 0 auto;
+  }
+  .methode-parag-text {
+    padding: 0
+  }
+  .methode-sentence {
+    font-size: 1.2rem;
+  }
+  .methode-button {
+    background-color: rgb(238, 174, 227);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+}
 
 /* fin page Méthodes */
