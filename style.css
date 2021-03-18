@@ -1,103 +1,106 @@
 body {
-    margin: 0;
+  margin: 0; 
+  padding: 0;
+  font-family: 'Poppins';
+  height: 100vh;
+  width: 100%;
 }
 
-p {
-    font-size: .9em;
+.accueil {
+  height: 100vh;
+  width: 100%;
+  background: #333;
+  background: url('img/nutritionniste.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  height: 120px;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.contLogo {
+  height: 100%;
+  /* juste pour aligner le logo */
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.logo {
+  margin-left: 80px;
+  width: 140px;
+}
+
+.contItems {
+  font-size: 22px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.items {
+  margin-right: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+}
+.items:hover {
+  color: #e74bf5;
+}
+
+
+.logoMenuImg {
+  width: 30px;
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 13px;
+
+}
+
+.footer {
+  height: 80px;
+  width: 100%;
+  background-color: #FFF;
+  text-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  /* on fait apparaitre le logo */
+  .logoMenuImg {
+      display: block;
+  }
+  /* pour ne plus display flex les éléments */
+  .navbar {
+      display: block;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    padding: 10px 0 0 0;
-    margin: 0;
-    color: #555;
-    font-family: 'Ropa Sans', sans-serif;
+  .items:nth-child(1){
+      padding-top: 20px;
+  }
+  .items {
+      background: #eee;
+      margin-right: 0;
+      padding: 10px 20px;
+      display: block;
+  }
+  
+  .contItems {
+      display: none;
+      border-top: 1px solid black;
   }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    height: 80px;
-  }
 
-  .container_ext {
-    width: 80%;
-    margin: 0 auto;
-    border: 1px solid #444;
-  }
-
-  .container_int {
-    width: 65%;
-    margin: 0 auto;
-    height: 800px;
-    border: 1px solid #444;
-  }
-
-  header .container {
-    position: relative;
-  }
-  /* ---------------------------------------------------- */
-/*		top 	header
-/* ---------------------------------------------------- */
-
-#logo {
-    height: 80px;
-  }
-
-  #logo a {
-    display: block;
+  /* Classe à toggle */
+  .responsive {
+      display: block;
   }
   
 
-  #nav {
-    background-color: #FFF;
-    height: 120px;
-  }
-  
-
-  #navigation {
-    display: inline;
-    width: 80%;
-    position: relative;
-  }
-
-  #navigation ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-
-  #navigation ul li {
-    float: right;
-    padding: 0 20px;
-  }
-
-  #navigation ul li ul {
-    display: none;
-  }
-
-  #navigation ul li a {
-    color: #000;
-    text-decoration: none;
-    line-height: 40px;
-    font-size: 0.9em;
-    padding: 0 10px;
-    display: block;
-    text-transform: uppercase;
-  }
-
-  #presentation {
-    width: 100%;
-    height: 300px;
-    background-color: #555;
-
-  }
-
-  .footer {
-    width: 100%;
-    margin: 0 auto;
-    height: 100px;
-    border: 1px solid #444;
-  }
+} 
 
 
 /* début page Méthodes */
