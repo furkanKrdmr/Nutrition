@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mes tarifs</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+
+    <?php
+
+    include 'INC/header.php';
+
+    ?>
+
     <div class = "tarif-title">
         <h1>Tarifs</h1>
     </div>
@@ -35,14 +31,14 @@
             
 
         <p>Chaque séance dure 30 mn. La formule Abonnement inclut
-             un bilan préliminaire et un suivi personnalisé. Les 
-             conseils téléphoniques font partie intégrante de la 
-             prestation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc urna dui, aliquet 
-             ut libero ac, fermentum feugiat arcu. Ut dignissim blandit efficitur. Phasellus 
-             ut metus at orci imperdiet ornare eget non nisi. Aliquam Lorem ipsum dolor sit amet,
-             consectetur adipiscing elit. Nunc urna dui, aliquet ut libero ac, fermentum feugiat
-             arcu. Ut dignissim blandit efficitur. Phasellus ut metus at orci imperdiet ornare 
-             eget non nisi. Aliquam
+            un bilan préliminaire et un suivi personnalisé. Les 
+            conseils téléphoniques font partie intégrante de la 
+            prestation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc urna dui, aliquet 
+            ut libero ac, fermentum feugiat arcu. Ut dignissim blandit efficitur. Phasellus 
+            ut metus at orci imperdiet ornare eget non nisi. Aliquam Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Nunc urna dui, aliquet ut libero ac, fermentum feugiat
+            arcu. Ut dignissim blandit efficitur. Phasellus ut metus at orci imperdiet ornare 
+            eget non nisi. Aliquam
         </p>
 
         <div class = "tarif-no-subscription">
@@ -65,5 +61,8 @@
 
     </div> 
 
-</body>
-</html>
+    <?php
+
+    include 'INC/footer.php';
+
+    ?>
