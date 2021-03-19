@@ -1,19 +1,9 @@
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins';
   height: 100vh;
   width: 100%;
-}
-
-.accueil {
-  height: 100vh;
-  width: 100%;
-  background: #333;
-  background: url('img/nutritionniste.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
 .navbar {
@@ -73,13 +63,15 @@ body {
   align-items: center;
 }
 
+/* Début page contact*/
+
 .carousel {
-  background: url('img/agrumes.jpg') fixed center center no-repeat;
+  background: url('../img/agrumes.jpg') fixed center center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 12em;
+  height: 25em;
   width: 100%;
 }
 
@@ -176,15 +168,22 @@ input[type=submit]:hover {
   width: 100%;
 }
 
+/* Fin page Contact */
+
 .container-presentation {
   width: 80%;
   display: flex;
-  margin: 0 auto;
+  margin: 50px auto;
+
+  
 }
 
-.imgpresentation img {
-  height: 400px;
-  width: auto;
+
+.imgpresentation img{
+  width: 90%;
+  height: 300;
+  margin-left: 60px;
+  float: right;
 }
 
 .txtpresentation {
@@ -197,11 +196,10 @@ input[type=submit]:hover {
 /* début page Méthodes */
 
 .methode-title {
-  height: 10em;
+  height: 25em;
   width: 100%;
-  background-image: url('img/vegetables.jpg');
+  background: url('../img/vegetables.jpg') fixed center center;
   background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,7 +207,6 @@ input[type=submit]:hover {
 
 .methode-main-box {
   width: 80%;
-  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -233,15 +230,15 @@ input[type=submit]:hover {
 }
 
 #img1 {
-  background-image: url('img/casserole.jpg');
+  background-image: url('../img/casserole.jpg');
 }
 
 #img2 {
-  background-image: url('img/vegetables-2.jpg');
+  background-image: url('../img/vegetables-2.jpg');
 }
 
 #img3 {
-  background-image: url('img/vegetables.jpg');
+  background-image: url('../img/vegetables.jpg');
 }
 
 .methode-parag-text {
@@ -284,11 +281,10 @@ input[type=submit]:hover {
 /* début page Tarifs */
 
 .tarif-title {
-  height: 10em;
+  height: 25em;
   width: 100%;
-  background-image: url('img/vegetables.jpg');
+  background: url('../img/vegetables.jpg') fixed center center no-repeat;
   background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;

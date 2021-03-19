@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Les nutrtitionistes</title>
+    <title>Les nutritionistes</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <div class="accueil">
 
         <div class="navbar">
@@ -22,26 +21,14 @@
             </div>
 
             <div class="contItems">
-                <a href="#" class="items">Accueil</a>
-                <a href="#" class="items">Présentation</a>
-                <a href="#" class="items">Méthodes</a>
-                <a href="#" class="items">Tarifs</a>
-                <a href="#" class="items">Contact</a>
+                <a href="index.php" class="items">Accueil</a>
+                <a href="presentation.php" class="items">Présentation</a>
+                <a href="methodes.php" class="items">Méthodes</a>
+                <a href="tarifs.php" class="items">Tarifs</a>
+                <a href="contact.php" class="items">Contact</a>
             </div>
             <!-- mets en commentaire au début -->
             <img src="img/menu.svg" alt="logo menu" class="logoMenuImg">
-
-
-
         </div>
-
-    </div>
-
-    <div class="footer">
-        <h1>Footer</h1>
     </div>
     <script src="app.js"></script>
-
-</body>
-
-</html>
