@@ -263,6 +263,10 @@ input[type=submit]:hover {
   margin-bottom: 1em;
 }
 
+.next-button:hover {
+  transform: scale(1.2, 1.2);
+}
+
 .next-sentence {
   font-size: 2rem;
 }
@@ -272,6 +276,14 @@ input[type=submit]:hover {
   border-radius: 10px;
   align-self: flex-end;
   padding: 1em;
+}
+
+.methode-button-plus:hover {
+  transform: scale(1.2, 1.2);
+}
+
+a {
+  text-decoration: none;
 }
 
 /* fin page Méthodes */
