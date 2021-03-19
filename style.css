@@ -117,7 +117,6 @@ body {
 }
 
 .methode-main-box {
-  box-sizing: border-box;
   width: 80%;
   height: 600px;
   display: flex;
@@ -134,31 +133,24 @@ body {
   margin: 2em;
 }
 
-.methode-image1 {
+.methode-image {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-width: 30%;
+  border-radius: 40px;
+}
+
+#img1 {
   background-image: url('img/casserole.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  min-width: 30%;
-  border-radius: 40px;
 }
 
-.methode-image2 {
+#img2 {
   background-image: url('img/vegetables-2.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  min-width: 30%;
-  border-radius: 40px;
 }
 
-.methode-image3 {
+#img3 {
   background-image: url('img/vegetables.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  min-width: 30%;
-  border-radius: 40px;
 }
 
 .methode-parag-text {
@@ -175,15 +167,15 @@ body {
   justify-content: space-around;
 }
 
-.methode-button {
+.next-button {
   background-color: rgb(238, 174, 227);
   border-radius: 40px;
   font-size: 2rem;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 1em 2em 1em 2em;
+  margin-bottom: 1em;
 }
 
-.methode-sentence {
+.next-sentence {
   font-size: 2rem;
 }
 
@@ -191,11 +183,8 @@ body {
   background-color: rgb(238, 174, 227);
   border-radius: 10px;
   align-self: flex-end;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 1em;
 }
-
-
 
 /* fin page Méthodes */
 
@@ -267,19 +256,6 @@ body {
   padding: 1em;
 }
 
-.tarif-sentence {
-  font-size: 2rem;
-}
-
-.tarif-button {
-  background-color: rgb(238, 174, 227);
-  border-radius: 40px;
-  font-size: 2rem;
-  padding-left: 2em;
-  padding-right: 2em;
-}
-
-
 /* fin page Tarifs */
 
 
@@ -288,13 +264,7 @@ body {
 
 
 @media screen and (max-width: 834px) { 
-  .methode-image1 { 
-    display: none; 
-  }
-  .methode-image2 { 
-    display: none; 
-  }
-  .methode-image3 { 
+  .methode-image { 
     display: none; 
   }
   .methode-button-plus { 
@@ -315,20 +285,10 @@ body {
   .methode-parag-text {
     padding: 0
   }
-  .methode-sentence {
+  .next-sentence {
     font-size: 1.2rem;
   }
-  .methode-button {
-    background-color: rgb(238, 174, 227);
-    border-radius: 20px;
-    font-size: 1.2rem;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
-  .tarif-sentence {
-    font-size: 1.2rem;
-  }
-  .tarif-button {
+  .next-button {
     background-color: rgb(238, 174, 227);
     border-radius: 20px;
     font-size: 1.2rem;
