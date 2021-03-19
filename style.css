@@ -1,65 +1,76 @@
-html {
+html,
+body {
   margin: 0;
   padding: 0;
-}
-
-.container {
+  font-family: 'Poppins';
+  height: 100vh;
   width: 100%;
-  margin: 0 auto;
 }
 
-header .container {
-  position: relative;
+.accueil {
+  height: 100vh;
+  width: 100%;
+  background: #333;
+  background: url('img/nutritionniste.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-/* ---------------------------------------------------- */
-/*		top 	header
-/* ---------------------------------------------------- */
-
-#logo {
-  height: 80px;
-  padding: 20px 0;
+.navbar {
+  height: 120px;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 
-#logo a {
-  display: block;
+.contLogo {
+  height: 100%;
+  /* juste pour aligner le logo */
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
 }
 
-
-#nav {
-  background-color: #000;
-  height: 40px;
+.logo {
+  margin-left: 80px;
+  width: 140px;
 }
 
-
-#navigation {
-  float: left;
-  display: inline;
-  width: 740px;
-  position: relative;
+.contItems {
+  font-size: 22px;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
-#navigation ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-#navigation ul li {
-  float: left;
-}
-
-#navigation ul li ul {
-  display: none;
-}
-
-#navigation ul li a {
-  color: #FFF;
+.items {
+  margin-right: 30px;
+  cursor: pointer;
   text-decoration: none;
-  line-height: 40px;
-  font-size: 0.9em;
-  padding: 0 10px;
-  display: block;
+  color: #333;
+}
+
+.items:hover {
+  color: #e74bf5;
+}
+
+
+.logoMenuImg {
+  width: 30px;
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 13px;
+
+}
+
+.footer {
+  height: 80px;
+  width: 100%;
+  background-color: #FFF;
+  text-align: center;
+  align-items: center;
 }
 
 .carousel {
@@ -98,14 +109,14 @@ header .container {
   align-self: center;
 }
 
-.carteggle iframe{
+.carteggle iframe {
   width: 80%;
   height: 25vw;
   margin: 0 auto;
 }
 
 .txt1 {
-  background-color: rgba(128,128,128,10%);
+  background-color: rgba(128, 128, 128, 10%);
   margin-left: auto;
   margin-right: auto;
   margin-top: 3vw;
@@ -116,7 +127,9 @@ header .container {
   grid-gap: 10px;
 }
 
-input[type=text], textarea, input[type=email] {
+input[type=text],
+textarea,
+input[type=email] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -128,9 +141,12 @@ input[type=text], textarea, input[type=email] {
   margin-left: 0px;
   resize: vertical;
 }
-label{margin-right: 0px;
+
+label {
+  margin-right: 0px;
   margin-left: 0px;
-  width: 100%;}
+  width: 100%;
+}
 
 input[type=submit] {
   background-color: #1255a2;
@@ -146,33 +162,271 @@ input[type=submit]:hover {
 }
 
 .container {
-  box-sizing : border-box;
-  border-radius:5px;
-  background-color:#f2f2f2;
-  padding:20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
   width: 100%;
   max-width: 440px;
   margin: 0 auto;
 }
-.container h1  {
+
+.container h1 {
   color: #ffc800;
   width: 100%;
 }
 
-.container-presentation{
+.container-presentation {
   width: 80%;
   display: flex;
   margin: 0 auto;
 }
 
-.imgpresentation img{
+.imgpresentation img {
   height: 400px;
   width: auto;
 }
 
-.txtpresentation{
+.txtpresentation {
   width: 50%;
   height: auto;
   text-align: left;
 
 }
+
+/* début page Méthodes */
+
+.methode-title {
+  height: 10em;
+  width: 100%;
+  background-image: url('img/vegetables.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.methode-main-box {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.methode-parag {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin: 2em;
+}
+
+.methode-image {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-width: 30%;
+  border-radius: 40px;
+}
+
+#img1 {
+  background-image: url('img/casserole.jpg');
+}
+
+#img2 {
+  background-image: url('img/vegetables-2.jpg');
+}
+
+#img3 {
+  background-image: url('img/vegetables.jpg');
+}
+
+.methode-parag-text {
+  min-width: 60%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.methode-parag-text-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.next-button {
+  background-color: rgb(238, 174, 227);
+  border-radius: 40px;
+  font-size: 2rem;
+  padding: 1em 2em 1em 2em;
+  margin-bottom: 1em;
+}
+
+.next-sentence {
+  font-size: 2rem;
+}
+
+.methode-button-plus {
+  background-color: rgb(238, 174, 227);
+  border-radius: 10px;
+  align-self: flex-end;
+  padding: 1em;
+}
+
+/* fin page Méthodes */
+
+
+
+/* début page Tarifs */
+
+.tarif-title {
+  height: 10em;
+  width: 100%;
+  background-image: url('img/vegetables.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarif-main-box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.tarif-all-subscription {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+}
+
+.tarif-subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  padding: 2em;
+  border: 2px solid black;
+  background-color: rgb(228, 236, 218);
+  border-radius: 20px;
+  margin: 0.5em;
+}
+
+.tarif-month {
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 0em;
+}
+
+.tarif-subscription>p {
+  line-height: 0em;
+}
+
+.tarif-no-subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  border: 2px solid black;
+  background-color: rgb(244, 232, 247);
+  border-radius: 20px;
+  padding: 1em;
+}
+
+/* fin page Tarifs */
+
+
+
+/*  début media queries*/
+@media screen and (max-width: 834px) {
+
+  /* on fait apparaitre le logo */
+  .logoMenuImg {
+    display: block;
+  }
+
+  /* pour ne plus display flex les éléments */
+  .navbar {
+    display: block;
+  }
+
+  .items:nth-child(1) {
+    padding-top: 20px;
+  }
+
+  .items {
+    background: #eee;
+    margin-right: 0;
+    padding: 10px 20px;
+    display: block;
+  }
+
+  .contItems {
+    display: none;
+    border-top: 1px solid black;
+  }
+
+
+  /* Classe à toggle */
+  .responsive {
+    display: block;
+  }
+
+  .methode-image {
+    display: none;
+  }
+
+  .methode-button-plus {
+    display: none;
+  }
+
+  .parag-text-par {
+    font-size: 0.7em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  .methode-main-box {
+    width: 100%;
+  }
+
+  .methode-parag {
+    margin: 0 auto;
+  }
+
+  .methode-parag-text {
+    padding: 0
+  }
+
+  .next-sentence {
+    font-size: 1.2rem;
+  }
+
+  .next-button {
+    background-color: rgb(238, 174, 227);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+
+}
+
+/*  fin media queries*/
