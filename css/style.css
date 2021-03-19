@@ -256,7 +256,7 @@ input[type=submit]:hover {
 }
 
 .next-button {
-  background-color: rgb(238, 174, 227);
+  background-color: rgb(136, 103, 59);
   border-radius: 40px;
   font-size: 2rem;
   padding: 1em 2em 1em 2em;
@@ -272,7 +272,7 @@ input[type=submit]:hover {
 }
 
 .methode-button-plus {
-  background-color: rgb(238, 174, 227);
+  background-color: rgb(136, 103, 59);
   border-radius: 10px;
   align-self: flex-end;
   padding: 1em;
@@ -284,6 +284,25 @@ input[type=submit]:hover {
 
 a {
   text-decoration: none;
+  color:black;
+}
+
+.separation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 8em;
+  width: 80%;
+  margin: 2em;
+}
+
+.pepper-img {
+  height: auto;
+}
+
+.pepper-img img {
+  height: 4em;
 }
 
 /* fin page Méthodes */
@@ -427,13 +446,22 @@ a {
   }
 
   .next-button {
-    background-color: rgb(238, 174, 227);
+    background-color: rgb(247,237,224);
     border-radius: 20px;
     font-size: 1.2rem;
     padding-left: 1.5em;
     padding-right: 1.5em;
   }
 
+  .pepper-img img {
+    height: 2em;
+  }
+
+  .separation {
+    height: 2em;
+    width: 80%;
+    margin: 0;
+  }
 
 }
 

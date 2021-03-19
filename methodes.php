@@ -13,7 +13,6 @@ include 'INC/header.php';
         <div class="methode-parag-text">
             <div class="methode-parag-text-title">
                 <h2>Régime de printemps</h2>
-                <p class="methode-button-plus"><a href="contact.php">En savoir plus !</a></p>
             </div>
             <p class="parag-text-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc urna dui, aliquet
                 ut libero ac, fermentum feugiat arcu. Ut dignissim blandit efficitur. Phasellus
@@ -28,9 +27,22 @@ include 'INC/header.php';
                 arcu. Ut dignissim blandit efficitur. Phasellus ut metus at orci imperdiet ornare
                 eget non nisi. Aliquam
             </p>
+            <p class="methode-button-plus"><a href="contact.php">En savoir plus !</a></p>
         </div>
 
         <div id="img1" class="methode-image"></div>
+    </div>
+
+    <div class = "separation">
+        <div class = "pepper-img">
+            <img src = "img/pepper.png" alt = "pepper">
+        </div>
+        <div class = "pepper-img">
+            <img src = "img/pepper.png" alt = "pepper">
+        </div>
+        <div class = "pepper-img">
+            <img src = "img/pepper.png" alt = "pepper">
+        </div>
     </div>
 
     <div class="methode-parag">
@@ -39,7 +51,6 @@ include 'INC/header.php';
         <div class="methode-parag-text">
             <div class="methode-parag-text-title">
                 <h2>Lutter contre l'obésité</h2>
-                <p class="methode-button-plus"><a href="contact.php">En savoir plus !</a></p>
             </div>
             <p class="parag-text-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc urna dui, aliquet
                 ut libero ac, fermentum feugiat arcu. Ut dignissim blandit efficitur. Phasellus
@@ -54,14 +65,26 @@ include 'INC/header.php';
                 arcu. Ut dignissim blandit efficitur. Phasellus ut metus at orci imperdiet ornare
                 eget non nisi. Aliquam
             </p>
+            <p class="methode-button-plus"><a href="contact.php">En savoir plus !</a></p>
+        </div>
+    </div>
+
+    <div class = "separation">
+        <div class = "pepper-img">
+            <img src = "img/pepper.png" alt = "pepper">
+        </div>
+        <div class = "pepper-img">
+            <img src = "img/pepper.png" alt = "pepper">
+        </div>
+        <div class = "pepper-img">
+            <img src = "img/pepper.png" alt = "pepper">
         </div>
     </div>
 
     <div class="methode-parag">
         <div class="methode-parag-text">
             <div class="methode-parag-text-title">
-                <h2>Régime thérapeutique</h2>
-                <p class="methode-button-plus"><a href="contact.php">En savoir plus !</a></p>
+                <h2>Régime thérapeutique</h2>     
             </div>
             <p class="parag-text-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc urna dui, aliquet
                 ut libero ac, fermentum feugiat arcu. Ut dignissim blandit efficitur. Phasellus
@@ -76,6 +99,7 @@ include 'INC/header.php';
                 arcu. Ut dignissim blandit efficitur. Phasellus ut metus at orci imperdiet ornare
                 eget non nisi. Aliquam
             </p>
+            <p class="methode-button-plus"><a href="contact.php">En savoir plus !</a></p>
         </div>
 
         <div id="img3" class="methode-image"></div>
