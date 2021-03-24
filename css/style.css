@@ -162,6 +162,44 @@ input[type=submit]:hover {
   width: 100%;
 }
 
+.openingTime {
+  margin-top: 5em;
+  border: 0.14em solid black;
+  border-radius: 20px;
+}
+
+.openingTime>p {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.openingTime-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.openingTime-title p {
+  margin: 0em;
+}
+
+.hours {
+  margin-bottom: 16px;
+}
+
+.hours p:not(.sunday) {
+  text-align: right;
+}
+
+.hours .sunday {
+  text-align: center;
+}
+
+.cRed {
+  color: rgba(255, 0, 0, 0.733);
+}
+
 /* Fin page Contact */
 
 /* Début page présentation*/

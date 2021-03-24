@@ -17,7 +17,31 @@
                 <p style="text-align: center;">4 avenue des plantées</p>
                 <p style="text-align: center;">69330 Meyzieu <br> Tél: 06 24 24 24 24</p>
                 <p style="text-align: center;"><strong>Tram T3 : Gare de Part Dieu la Villete</strong></p>
-                <img class="imgrdvv" src="img/Horaires.png" alt="">
+                <!--<img class="imgrdvv" src="img/Horaires.png" alt="">-->
+                <div class = "openingTime"> 
+                    <p>Horaires de consultation</p>
+                    <div class = "openingTime-title">
+                        <div class = "days">
+                            <p>Lundi</p>
+                            <p>Mardi</p>
+                            <p>Mercredi</p>
+                            <p>Jeudi</p>
+                            <p>Vendredi</p>
+                            <p>Samedi</p>
+                            <p class="cRed">Dimanche</p>
+                        </div>
+                        <div class = "hours">
+                            <p>14h00 - 19h00</p>
+                            <p>8h30 - 19h00</p>
+                            <p>8h30 - 19h00</p>
+                            <p>8h30 - 19h00</p>
+                            <p>8h30 - 19h00</p>
+                            <p>8h30 - 12h00</p>
+                            <p class="sunday cRed">Fermé</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
 
