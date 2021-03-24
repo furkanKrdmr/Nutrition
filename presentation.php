@@ -10,6 +10,9 @@
 
     <div class="container-presentation">
         <div class="txtpresentation">
+        <div class="prestitle">
+                <h2>Mes diplomes et formations :</h2>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ex voluptas accusamus soluta sed eum
                 cupiditate veritatis suscipit nam deserunt excepturi laborum ipsa sint a. Porro officiis voluptatum
                 accusantium voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur velit
@@ -28,34 +31,97 @@
                 fugit possimus natus tempora. Quaerat, ipsam aliquid.
             </p>
         </div>
-        <div class="imgpresentation">
-            <img src="img/femme.jpg" alt="">
+        <div class="card">
+            <!-- Image à la une -->
+            <div class="card-image"><img src="img/femme.jpg" alt="enfantquimange" /></div>
+            <!-- Fin de l'image à la une -->
+
+            <!-- Corp de notre carte -->
+            <div class="card-body">
+
+                <!-- Date de publication de l'article-->
+                <div class="card-date">
+                    <time>Maryse Thiebaud</time>
+                </div>
+
+                <!-- Titre de l'article -->
+                <div class="card-title">
+                    <h3>Lorem Ipsum</h3>
+                </div>
+                <!-- Extrait de l'article -->
+                <div class="card-excerpt">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                </div>
+
+            </div>
+            <!-- Fin du corp de notre carte -->
         </div>
     </div>
 
-    <hr>
-
-    <h2>Mes dipômes et mes formations :</h2>
+    <div class="separation">
+        <div class="pepper-img">
+            <img src="img/pepper.png" alt="pepper">
+        </div>
+        <div class="pepper-img">
+            <img src="img/pepper.png" alt="pepper">
+        </div>
+        <div class="pepper-img">
+            <img src="img/pepper.png" alt="pepper">
+        </div>
+    </div>
 
     <div class="container-pres">
+
         <div class="gauche">
+            <div class="prestitle">
+                <h2>Mes diplomes et formations :</h2>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate doloribus ut voluptate. Quod eveniet
                 consectetur odit officiis totam facilis. Beatae dolores ut voluptate quam harum est tempore, sint
                 architec to laboriosam.
-                At cumque quo aliquam itaque a officiis, delectus explicabo! Repellat consectetur voluptatibus dolorem
-                eveniet corporis explicabo officiis ipsa ad soluta in quidem odio fugiat accusamus, eaque voluptatum
-                iste consequatur optio.
-                Nobis ullam repudiandae deserunt dolorum, dolor non animi vitae, voluptatem dignissimos aliquid dolores
-                aperiam nihil molestiae molestias quae consectetur rerum, quam dolore! Quod recusandae repellat
-                quisquam, laboriosam esse error quae!
+                At cumque quo aliquam itaque a officiis, delectus explicabo! Repellat consectetur voluptatibus dolorem :
+            <ul>
+                <li>Bts</li>
+                <li>FAc</li>
+                <li>Doctorat</li>
+            </ul>
+            eveniet corporis explicabo officiis ipsa ad soluta in quidem odio fugiat accusamus, eaque voluptatum
+            iste consequatur optio.
+            Nobis ullam repudiandae deserunt dolorum, dolor non animi vitae, voluptatem dignissimos aliquid dolores
+            aperiam nihil molestiae molestias quae consectetur rerum, quam dolore! Quod recusandae repellat
+            quisquam, laboriosam esse error quae!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, magnam beatae necessitatibus quasi similique explicabo facilis. Quisquam, alias iure sequi itaque non similique necessitatibus omnis, sit voluptatem nam, temporibus ex!
             </p>
         </div>
 
-        <div class="droite">
-            <p></p>
+        <div class="card">
+            <!-- Image à la une -->
+            <div class="card-image"><img src="img/enfantmange.jpeg" alt="enfantquimange" /></div>
+            <!-- Fin de l'image à la une -->
+
+            <!-- Corp de notre carte -->
+            <div class="card-body">
+
+                <!-- Date de publication de l'article-->
+                <div class="card-date">
+                    <time>Mon engagement auprès de la mulnitrition a l'école</time>
+                </div>
+
+                <!-- Titre de l'article -->
+                <div class="card-title">
+                    <h3>Lorem Ipsum</h3>
+                </div>
+                <!-- Extrait de l'article -->
+                <div class="card-excerpt">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                </div>
+
+            </div>
+            <!-- Fin du corp de notre carte -->
+            </a>
         </div>
     </div>
-    
+
     <?php
 
     include 'INC/footer.php';
