@@ -3,7 +3,7 @@
 include 'INC/header.php';
 
 ?>
-<div class= "image_presentation">
+<div class="image_presentation">
 
 </div>
 
@@ -55,6 +55,7 @@ include 'INC/header.php';
             </p>
         </div>
     </div>
+
     <div class="main-parag-right">
         <div class="main-parag-right-text">
                 <div class="main-parag-text-title">
@@ -79,10 +80,9 @@ include 'INC/header.php';
                 <p class="savoir-plus">Envie d'en savoir plus?</p>
                 <p class="competence-button"><a href="presentation.php">Mes compétences</a></p>
                 </div>
-        </div>    
-    </div>
-   
-</div>  
+        </div>   
+  </div>
+</div>
 <?php
 
 include 'INC/footer.php';
