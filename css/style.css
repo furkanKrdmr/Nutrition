@@ -80,15 +80,23 @@ body {
   margin: 0 auto;
 }
 
-.main-parag {
+.main-parag-left{
   display: flex;
   flex-direction: row;
   height: auto;
   margin: 2em;
-  width: 50%;
+  width: 70%;
   align-self: start;
 }
 
+.main-parag-right{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin: 2em;
+  width: 30%;
+  align-self: start;
+}
 .main-image {
   background-size: cover;
   background-position: center;
@@ -97,18 +105,34 @@ body {
   border-radius: 40px;
 }
 
-.main-parag-text {
-  min-width: 50%;
+.main-parag-left-text {
+  min-width: 70%;
   padding: 2em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
+.main-parag-right-text {
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(244, 232, 247);
+  border-radius: 10px;
+  border: 1px solid #DDD;
+}
+
+.main-parag2 {
+  text-align: center;
+}
+
 .main-parag-text-title {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  text-align: center;
 }
 
 .footer {
@@ -429,11 +453,21 @@ ul{
   font-size: 2rem;
 }
 
+.savoir-plus {
+  padding: 10px;
+}
+
+.competence-button {
+  background-color: rgb(136, 103, 59);
+  border-radius: 10px;
+  padding: 1em;
+  display: inline;
+}
+
 .methode-button-plus {
   background-color: rgb(136, 103, 59);
   border-radius: 10px;
   align-self: flex-end;
-  padding: 1em;
 }
 
 .methode-button-plus:hover {
@@ -587,6 +621,33 @@ a {
     font-size: 1em;
   }
 
+  .index-main-box {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .main-parag-left{
+    margin: 0 auto;
+    width: 95%;
+  }
+  .main-parag-right{
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
+  }
+
+  .main-parag-left-text {
+    padding: 0
+  }
+
+  .main-parag-right-text {
+    padding: 5px;
+  }
+
+  .main-parag2 {
+    margin: 0 auto;
+  }
+  
   .methode-main-box {
     width: 100%;
   }
