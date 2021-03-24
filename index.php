@@ -3,7 +3,7 @@
 include 'INC/header.php';
 
 ?>
-<div class= "image_presentation">
+<div class="image_presentation">
 
 </div>
 
@@ -47,26 +47,31 @@ include 'INC/header.php';
     </div>
     <div class="main-parag">
         <div class="main-parag-text">
-                <div class="main-parag-text-title">
-                    <h2>Mes prestations personnalisées</h2>
-                </div>
-                <p class="parag-text-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc urna dui, aliquet
-                    ut libero ac, fermentum feugiat arcu. Ut dignissim blandit efficitur. Phasellus
-                    ut metus at orci imperdiet ornare eget non nisi. Aliquam Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Nunc urna dui, aliquet ut libero ac, fermentum feugiat
-                    arcu. Ut dignissim blandit efficitur. Phasellus ut metus at orci imperdiet ornare
-                    eget non nisi. Aliquam
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc urna dui, aliquet
-                    ut libero ac, fermentum feugiat arcu. Ut dignissim blandit efficitur. Phasellus
-                    ut metus at orci imperdiet ornare eget non nisi. Aliquam Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Nunc urna dui, aliquet ut libero ac, fermentum feugiat
-                    arcu. Ut dignissim blandit efficitur. Phasellus ut metus at orci imperdiet ornare
-                    eget non nisi. Aliquam
-                </p>
-        </div>    
+            <div class="main-parag-text-title">
+                <h2>Mes prestations personnalisées</h2>
+            </div>
+            <p class="parag-text-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc urna dui, aliquet
+                ut libero ac, fermentum feugiat arcu. Ut dignissim blandit efficitur. Phasellus
+                ut metus at orci imperdiet ornare eget non nisi. Aliquam Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Nunc urna dui, aliquet ut libero ac, fermentum feugiat
+                arcu. Ut dignissim blandit efficitur. Phasellus ut metus at orci imperdiet ornare
+                eget non nisi. Aliquam
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc urna dui, aliquet
+                ut libero ac, fermentum feugiat arcu. Ut dignissim blandit efficitur. Phasellus
+                ut metus at orci imperdiet ornare eget non nisi. Aliquam Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Nunc urna dui, aliquet ut libero ac, fermentum feugiat
+                arcu. Ut dignissim blandit efficitur. Phasellus ut metus at orci imperdiet ornare
+                eget non nisi. Aliquam
+            </p>
+        </div>
     </div>
-   
-</div>  
+
+</div>
+
+<div class="txtbutton">
+        <p class="text-bas-page">Vous voulez en savoir plus sur moi ? Cliquer sur le boutton ! </p>
+        <p class="button-bas-page"><a href="presentation.php">Qui suis je ?</a></p>
+    </div>
 <?php
 
 include 'INC/footer.php';

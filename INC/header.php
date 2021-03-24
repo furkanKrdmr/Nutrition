@@ -22,7 +22,7 @@
 
             <div class="contItems">
                 <a href="index.php" class="items">Accueil</a>
-                <a href="presentation.php" class="items">Qui suis-je?</a>
+                <a href="presentation.php" class="items">Qui suis-je ?</a>
                 <a href="methodes.php" class="items">Méthodes</a>
                 <a href="tarifs.php" class="items">Tarifs</a>
                 <a href="contact.php" class="items">Contact</a>
