@@ -112,11 +112,16 @@ body {
 }
 
 .footer {
-  height: 80px;
+  height: 50px;
   width: 100%;
   text-align: center;
   align-items: center;
-  background-color: #FFF;
+  background-color: rgb(204, 179, 109);
+  padding-top: 3px;
+}
+
+.footer p {
+  font-size: 0.8em;
 }
 
 /* Début page contact*/
@@ -414,7 +419,7 @@ ul{
 }
 
 .next-button {
-  background-color: rgb(136, 103, 59);
+  background-color: rgb(187, 148, 96);
   border-radius: 40px;
   font-size: 2rem;
   padding: 1em 2em 1em 2em;
@@ -430,7 +435,7 @@ ul{
 }
 
 .methode-button-plus {
-  background-color: rgb(136, 103, 59);
+  background-color: rgb(187, 148, 96);
   border-radius: 10px;
   align-self: flex-end;
   padding: 1em;
@@ -505,13 +510,14 @@ a {
   height: auto;
   padding: 2em;
   border: 2px solid black;
-  background-color: rgb(228, 236, 218);
+  /*background-color: rgb(228, 236, 218);*/
+  background-color: rgb(187, 148, 96);
   border-radius: 20px;
   margin: 0.5em;
 }
 
 .tarif-month {
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: bold;
   line-height: 0em;
 }
@@ -527,9 +533,11 @@ a {
   align-content: center;
   height: auto;
   border: 2px solid black;
-  background-color: rgb(244, 232, 247);
+  /*background-color: rgb(244, 232, 247);*/
+  background-color: rgb(238, 218, 155);
   border-radius: 20px;
   padding: 1em;
+  margin-top: 1.2em;
 }
 
 /* fin page Tarifs */
@@ -563,6 +571,9 @@ a {
   .contItems {
     display: none;
     border-top: 1px solid black;
+    background: #EFEFEF;
+    text-align:left;
+    height: auto;
   }
 
 
