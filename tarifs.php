@@ -56,8 +56,8 @@ include 'INC/header.php';
     </div>
 
     <div class="txtbutton">
-        <p class="text-bas-page">Vous voulez me contacter ? Cliquer sur le boutton ! </p>
-        <p class="button-bas-page"><a href="contact.php">Contact moi !</a></p>
+        <p class="text-bas-page">Vous voulez me contacter ? Cliquer sur le bouton ! </p>
+        <p class="button-bas-page"><a href="contact.php">Contactez moi !</a></p>
     </div>
 
 </div>
