@@ -143,10 +143,11 @@ body {
   margin: 0 auto;
 }
 
+.containergauche, .containerdroite {
+  display: block;
+}
+
 .img{
-  grid-column-start: 2;
-  grid-row-start: 1;
-  grid-row-end: 1;
   align-self: center;
 }
 
@@ -160,7 +161,7 @@ body {
   height: 20vw;
   display: block;
   margin: 30px auto;
-  width: 80%;
+  width: 400px;
 }
 
 .carteggle{
@@ -169,18 +170,20 @@ body {
   margin-right: auto;
 }
 
-.txt1 {
+.txt1{
   background-color: rgba(128, 128, 128, 10%);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5vw;
   margin-top: 5vw;
   width: 60%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(100px, 500px);
-  grid-gap: 10px;
+  display: flex;
+  justify-content: space-evenly;
   border-radius: 20px;
+}
+
+.iconimg{
+  float: right;
 }
 
 input[type=text],
@@ -211,12 +214,8 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: ;
-}
-
-input[type=submit]:hover {
-  background-color: oifez;
-
+  display: block;
+  float: right;
 }
 
 .container {
@@ -224,13 +223,11 @@ input[type=submit]:hover {
   border-radius: 5px; 
   padding: 20px;
   width: 100%;
-  max-height: 600px;
   max-width: 600px;
   margin: 0 auto;
-  grid-row-start: 1;
-  grid-row-end: 1;
-  grid-column-start: 2;
-
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
 }
 
 .container h1 {
@@ -291,6 +288,10 @@ input[type=submit]:hover {
   height: auto;
   text-align: center;
   margin: 0 auto;
+  background: rgb(244, 232, 247);
+  border: black solid 2px;
+  border-radius: 20px;
+  padding: 0.7vw;
 }
 .container-pres{
   width: 80%;
@@ -304,7 +305,10 @@ input[type=submit]:hover {
   margin: 0 auto;
   text-align: center;
   flex-direction: column;
-  background: ;
+  background: rgb(244, 232, 247);
+  border: black solid 2px;
+  border-radius: 20px;
+  padding: 0.7vw;
 }
 
 .card {
@@ -357,8 +361,34 @@ box-sizing: border-box;
   align-items: center;
 }
 
-ul{
+.ulll{
   text-align: left;
+}
+
+.txtbutton{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.text-bas-page{
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
+  padding-right: 5vw;
+}
+
+.button-bas-page{
+  background-color: rgb(136, 103, 59);
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.button-bas-page:hover{
+  transform: scale(1.2, 1.2);
 }
 /* début page Méthodes */
 
@@ -461,7 +491,8 @@ a {
   align-items: center;
   height: 8em;
   width: 80%;
-  margin: 2em;
+  margin: 0 auto;
+  margin-bottom: 2em;
 }
 
 .pepper-img {
@@ -649,7 +680,6 @@ a {
       width: 100%;
       max-height: 800px;
       max-width: 600px;
-
     }
 
     .imgrdvv{
@@ -657,8 +687,51 @@ a {
     }
     .carteggle iframe {
       height: 75vw;
+      width: 90%;
     }
     /* fin page contact */
+
+    /* début page qui suis je ? */
+    .container-presentation{
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .txtpresentation{
+      width: 95%;
+      padding: 0;
+    }
+
+    .card{
+      width: 100%;
+      margin-top: 1em;
+    }
+
+    .separation{
+      width: 100%;
+    }
+
+    .container-pres{
+      flex-direction: column;
+      width: 95%;
+    }
+    
+    .gauche{
+      width: 100%;
+      padding: 0;
+    }
+    .text-bas-page{
+
+      font-size: 90%;
+    
+    }
+
+    .button-bas-page{
+      width: 90%;
+    }
+    /* fin page qui suis je ? */
+
+
+    /*  fin media queries*/
 }
 
-/*  fin media queries*/

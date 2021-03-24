@@ -10,7 +10,7 @@
 
     <div class="container-presentation">
         <div class="txtpresentation">
-        <div class="prestitle">
+            <div class="prestitle">
                 <h2>Mes diplomes et formations :</h2>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ex voluptas accusamus soluta sed eum
@@ -50,7 +50,10 @@
                 </div>
                 <!-- Extrait de l'article -->
                 <div class="card-excerpt">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus
+                        autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi 
+                        modi harum enim quia veniam consectetur unde autem inventore.
+                    </p>
                 </div>
 
             </div>
@@ -80,7 +83,7 @@
                 consectetur odit officiis totam facilis. Beatae dolores ut voluptate quam harum est tempore, sint
                 architec to laboriosam.
                 At cumque quo aliquam itaque a officiis, delectus explicabo! Repellat consectetur voluptatibus dolorem :
-            <ul>
+            <ul class="ulll">
                 <li>Bts</li>
                 <li>FAc</li>
                 <li>Doctorat</li>
@@ -120,6 +123,23 @@
             <!-- Fin du corp de notre carte -->
             </a>
         </div>
+    </div>
+
+    <div class="separation">
+        <div class="pepper-img">
+            <img src="img/pepper.png" alt="pepper">
+        </div>
+        <div class="pepper-img">
+            <img src="img/pepper.png" alt="pepper">
+        </div>
+        <div class="pepper-img">
+            <img src="img/pepper.png" alt="pepper">
+        </div>
+    </div>
+
+    <div class="txtbutton">
+        <p class="text-bas-page">Vous voulez en savoir plus sur mes méthodes ? Cliquer sur le boutton ! </p>
+        <p class="button-bas-page"><a href="methodes.php">Mes méthodes !</a></p>
     </div>
 
     <?php

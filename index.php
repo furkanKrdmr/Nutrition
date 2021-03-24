@@ -67,6 +67,11 @@ include 'INC/header.php';
     </div>
 
 </div>
+
+<div class="txtbutton">
+        <p class="text-bas-page">Vous voulez en savoir plus sur moi ? Cliquer sur le boutton ! </p>
+        <p class="button-bas-page"><a href="presentation.php">Qui suis je ?</a></p>
+    </div>
 <?php
 
 include 'INC/footer.php';
