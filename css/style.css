@@ -119,7 +119,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgb(244, 232, 247);
+  /*background-color: rgb(244, 232, 247);*/
+  background-color: rgb(223, 193, 155);
   border-radius: 10px;
   border: 1px solid #DDD;
 }
@@ -317,11 +318,17 @@ input[type=submit] {
   height: auto;
   text-align: center;
   margin: 0 auto;
-  background: rgb(244, 232, 247);
+  /*background: rgb(244, 232, 247);*/
+  background: rgb(223, 193, 155);
   border: black solid 2px;
   border-radius: 20px;
   padding: 0.7vw;
 }
+
+.txtpresentation p {
+  text-align:justify ;
+}
+
 .container-pres{
   width: 80%;
   display: flex;
@@ -334,10 +341,15 @@ input[type=submit] {
   margin: 0 auto;
   text-align: center;
   flex-direction: column;
-  background: rgb(244, 232, 247);
+  /*background: rgb(244, 232, 247);*/
+  background: rgb(223, 193, 155);
   border: black solid 2px;
   border-radius: 20px;
   padding: 0.7vw;
+}
+
+.gauche p {
+  text-align:justify ;
 }
 
 .card {
@@ -367,6 +379,10 @@ input[type=submit] {
   text-align:center;  
 padding: 15px 20px; 
 box-sizing: border-box; 
+}
+
+.card-excerpt p {
+  text-align: justify;
 }
 
 .main {
@@ -411,9 +427,10 @@ box-sizing: border-box;
 }
 
 .button-bas-page{
-  background-color: rgb(136, 103, 59);
+  background-color: rgb(187, 148, 96);
   border-radius: 10px;
   padding: 1em;
+  text-align: center;
 }
 
 .button-bas-page:hover{
@@ -481,6 +498,10 @@ box-sizing: border-box;
   justify-content: space-around;
 }
 
+.parag-text-par {
+  text-align: justify;
+}
+
 .next-button {
   background-color: rgb(187, 148, 96);
   border-radius: 40px;
@@ -502,7 +523,7 @@ box-sizing: border-box;
 }
 
 .competence-button {
-  background-color: rgb(136, 103, 59);
+  background-color: rgb(187, 148, 96);
   border-radius: 10px;
   padding: 1em;
   display: inline;
@@ -512,6 +533,7 @@ box-sizing: border-box;
   background-color: rgb(187, 148, 96);
   border-radius: 10px;
   align-self: flex-end;
+  padding: 0.6em;
 }
 
 .methode-button-plus:hover {
@@ -648,12 +670,19 @@ a {
     background: #EFEFEF;
     text-align:left;
     height: auto;
+    position: relative;
+    z-index: 10;
   }
 
 
   /* Classe à toggle */
   .responsive {
     display: block;
+  }
+
+
+  .image_presentation {
+    height: 15em;
   }
 
   .methode-image {
@@ -675,6 +704,7 @@ a {
   .index-main-box {
     width: 100%;
     flex-direction: column;
+    margin-bottom: 20px;
   }
 
   .main-parag-left{
@@ -700,7 +730,7 @@ a {
   }
   
   .methode-main-box {
-    width: 100%;
+    width: 85%;
   }
 
   .methode-parag {
@@ -796,6 +826,10 @@ a {
 
       font-size: 90%;
     
+    }
+
+    .competence-button {
+      display: block;
     }
 
     .button-bas-page{

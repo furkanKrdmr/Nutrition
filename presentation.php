@@ -83,11 +83,13 @@
                 consectetur odit officiis totam facilis. Beatae dolores ut voluptate quam harum est tempore, sint
                 architec to laboriosam.
                 At cumque quo aliquam itaque a officiis, delectus explicabo! Repellat consectetur voluptatibus dolorem :
+            </p>
             <ul class="ulll">
-                <li>Bts</li>
-                <li>FAc</li>
+                <li>BTS</li>
+                <li>FAC</li>
                 <li>Doctorat</li>
             </ul>
+            <p>
             eveniet corporis explicabo officiis ipsa ad soluta in quidem odio fugiat accusamus, eaque voluptatum
             iste consequatur optio.
             Nobis ullam repudiandae deserunt dolorum, dolor non animi vitae, voluptatem dignissimos aliquid dolores
