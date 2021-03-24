@@ -1,5 +1,5 @@
     <div class="footer">
-        <h1>Footer</h1>
+        <p>Tous droits réservés - 2021 - Les Nutritionnistes</p>
     </div>
     <script src="JS/app.js"></script>
 
