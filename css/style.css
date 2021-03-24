@@ -92,10 +92,16 @@ html, body {
 
 
 .carteggle iframe{
-  width: 80%;
   height: 20vw;
+  display: block;
   margin: 0 auto;
-  ;
+  width: 80%;
+}
+
+.carteggle{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .txt1 {
@@ -106,7 +112,7 @@ html, body {
   width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(100px, auto);
+  grid-template-rows: minmax(100px, 500px);
   grid-gap: 10px;
 }
 
@@ -144,17 +150,19 @@ input[type=submit]:hover {
   background-color: #1872D9;
 }
 
+
 .container {
   box-sizing: border-box;
-  border-radius: 5px;
-  background-color: #f2f2f2;
+  border-radius: 5px; 
   padding: 20px;
   width: 100%;
   max-height: 600px;
   max-width: 600px;
   margin: 0 auto;
   grid-row-start: 1;
+  grid-row-end: 1;
   grid-column-start: 2;
+
 }
 
 .container h1 {
@@ -169,35 +177,61 @@ input[type=submit]:hover {
 .container-presentation {
   width: 80%;
   display: flex;
+  align-items: center;
   margin: 50px auto;
-}
-
-
-.imgpresentation{
-  width: 90%;
-  height: 300;
-  margin-left: 60px;
-  float: right;
-  -webkit-border-radius: 20%;
-  border-radius: 20%;
-
 }
 
 .txtpresentation {
   width: 50%;
   height: auto;
-  text-align: left;
+  text-align: center;
+  margin: 0 auto;
 }
 .container-pres{
   width: 80%;
-  margin: 20px auto;
   display: flex;
+  margin: 50px auto;
 }
 
-.droite{
+
+.gauche{
   width: 50%;
-  background: url('img/enfantmange.jpeg');
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
 }
+
+.card {
+  width: 400px; /*1*/
+  margin: 0px auto; /*2*/
+  background-color: white; /*3*/
+  box-shadow: 0px 5px 20px #999; /*4*/
+  display: block;
+  border-radius: 20%;
+}
+.card-image {
+  height: 250px;/*1*/
+  position: relative;/*2*/
+  overflow: hidden;/*3*/
+  border-radius: 20% 20% 0 0;
+}
+.card-image img {
+  width: 150%;/*4*/
+    /*5 - Méthode de centrage en fonction de la taille de l'image */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.card-body {
+  text-align:center;  /*1*/
+padding: 15px 20px; /*2*/
+box-sizing: border-box; /*3*/
+border-radius: 20%;
+}
+
 .main {
   width: 80%;
   display: flex;
@@ -205,7 +239,7 @@ input[type=submit]:hover {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  height: 800px;;
+  height: 800px;
 }
 
 
@@ -219,12 +253,9 @@ input[type=submit]:hover {
   align-items: center;
 }
 
-
-.gauche p{
-  width: 50%;
+ul{
+  text-align: left;
 }
-
-
 /* début page Méthodes */
 
 .methode-title{
@@ -495,6 +526,35 @@ a {
     margin: 0;
   }
 
+  /* debut page contact */
+
+  .txt1 {
+      background-color: rgba(128, 128, 128, 10%);
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3vw;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      box-sizing: border-box;
+      border-radius: 5px; 
+      padding: 20px;
+      width: 100%;
+      max-height: 800px;
+      max-width: 600px;
+
+    }
+
+    .imgrdvv{
+      width: 100%;
+    }
+    .carteggle iframe {
+      height: 75vw;
+    }
+    /* fin page contact */
 }
 
 /*  fin media queries*/
