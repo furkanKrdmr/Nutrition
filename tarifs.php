@@ -4,7 +4,7 @@ include 'INC/header.php';
 
 ?>
 
-<div class="tarif-title">
+<div class="carousel">
     <h1>Tarifs</h1>
 </div>
 
@@ -29,7 +29,7 @@ include 'INC/header.php';
     </div>
 
 
-    <p>Chaque séance dure 30 mn. La formule Abonnement inclut
+    <p style="text-align: justify;">Chaque séance dure 30 mn. La formule Abonnement inclut
         un bilan préliminaire et un suivi personnalisé. Les
         conseils téléphoniques font partie intégrante de la
         prestation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc urna dui, aliquet
@@ -42,7 +42,7 @@ include 'INC/header.php';
 
     <div class="tarif-no-subscription">
         <h2>Hors abonnement</h2>
-        <p>Je propose aussi des séances individuelles de coaching régime à 75 € la séance.
+        <p style="text-align: justify;">Je propose aussi des séances individuelles de coaching régime à 75 € la séance.
             Un bilan complet de vos habitudes alimentaire est réalisable au prix de 100 €.
             Je propose aussi des séances individuelles de coaching régime à 75 € la séance.
             Un bilan complet de vos habitudes alimentaire est réalisable au prix de 100 €.

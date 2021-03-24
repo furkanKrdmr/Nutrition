@@ -4,7 +4,7 @@ include 'INC/header.php';
 
 ?>
 
-<div class="methode-title">
+<div class="carousel">
     <h1>Prestations</h1>
 </div>
 

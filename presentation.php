@@ -5,7 +5,7 @@
     ?>
 
     <div class="carousel">
-        <h1>Contact</h1>
+        <h1>Qui suis-je ?</h1>
     </div>
 
     <div class="container-presentation">
