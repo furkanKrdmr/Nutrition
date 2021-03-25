@@ -29,4 +29,13 @@ arrItems.forEach(item => {
         
     })
 
-})
+});
+
+
+
+const message = "Merci de nous avoir contactés, votre demande sera traitée dans les plus brefs délais."
+
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+        alert(message);
+});

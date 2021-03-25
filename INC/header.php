@@ -17,15 +17,14 @@
 
 
             <div class="contLogo">
-                <img src="img/logo.png" class="logo" alt="logo">
+                <a href="index.php"><img src="img/logo.png" class="logo" alt="logo nutrition"></a>
             </div>
-
             <div class="contItems">
                 <a href="index.php" class="items">Accueil</a>
                 <a href="presentation.php" class="items">Qui suis-je ?</a>
                 <a href="methodes.php" class="items">Méthodes</a>
                 <a href="tarifs.php" class="items">Tarifs</a>
-                <a href="contact.php" class="items">Contact</a>
+                <a href="contact.php" class="items items2">Contact</a>
             </div>
             <!-- mets en commentaire au début -->
             <img src="img/menu.svg" alt="logo menu" class="logoMenuImg">
