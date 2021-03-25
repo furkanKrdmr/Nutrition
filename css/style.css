@@ -13,7 +13,7 @@ body {
 
 .navbar {
   height: 120px;
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
 }
@@ -192,6 +192,8 @@ body {
   display: block;
   margin: 30px auto;
   width: 400px;
+  border: 2px solid grey;
+  border-radius: 20px;
 }
 
 .carteggle{
@@ -267,7 +269,7 @@ input[type=submit] {
 
 .openingTime {
   margin-top: 1em;
-  border: 0.14em solid black;
+  border: 2px solid grey;
   border-radius: 20px;
 }
 
@@ -651,6 +653,7 @@ a {
   /* pour ne plus display flex les éléments */
   .navbar {
     display: block;
+    width: 100%;
   }
 
   .items:nth-child(1) {
@@ -658,20 +661,25 @@ a {
   }
 
   .items {
-    background: #eee;
+    background: rgb(223, 193, 155);
     margin-right: 0;
     padding: 10px 20px;
+    border: 1.5px solid rgb(177, 134, 105);
+    box-shadow: 3px 3px 3px 3px  rgba(177, 134, 105,.40);
     display: block;
   }
 
   .contItems {
     display: none;
-    border-top: 1px solid black;
-    background: #EFEFEF;
+    background:rgb(223, 193, 155);
     text-align:left;
     height: auto;
     position: relative;
     z-index: 10;
+  }
+
+  .contLogo img{
+    margin: 0;
   }
 
 
@@ -692,17 +700,10 @@ a {
   .methode-button-plus {
     display: none;
   }
-
-  .parag-text-par {
-    font-size: 0.7em;
-  }
-
-  h2 {
-    font-size: 1em;
-  }
+/* fin de class a toggle */
 
   .index-main-box {
-    width: 100%;
+    width: 95%;
     flex-direction: column;
     margin-bottom: 20px;
   }
@@ -730,7 +731,7 @@ a {
   }
   
   .methode-main-box {
-    width: 85%;
+    width: 93%;
   }
 
   .methode-parag {
@@ -739,18 +740,6 @@ a {
 
   .methode-parag-text {
     padding: 0
-  }
-
-  .next-sentence {
-    font-size: 1.2rem;
-  }
-
-  .next-button {
-    background-color: rgb(247,237,224);
-    border-radius: 20px;
-    font-size: 1.2rem;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
   }
 
   .pepper-img img {
@@ -770,7 +759,7 @@ a {
       margin-left: auto;
       margin-right: auto;
       margin-top: 3vw;
-      width: 90%;
+      width: 95%;
       display: flex;
       flex-direction: column;
     }
@@ -779,7 +768,7 @@ a {
       box-sizing: border-box;
       border-radius: 5px; 
       padding: 20px;
-      width: 100%;
+      width: 95%;
       max-height: 800px;
       max-width: 600px;
     }
@@ -790,13 +779,21 @@ a {
     .carteggle iframe {
       height: 75vw;
       width: 90%;
+      border: 2px solid grey;
+      border-radius: 20px;
+    }
+
+    .openingTime{
+      width: 90%;
+      margin: 0 auto;
+      border: 2px solid grey;
     }
     /* fin page contact */
 
     /* début page qui suis je ? */
     .container-presentation{
       flex-direction: column;
-      width: 100%;
+      width: 95%;
     }
 
     .txtpresentation{
@@ -815,17 +812,32 @@ a {
 
     .container-pres{
       flex-direction: column;
-      width: 95%;
+      width: 93%;
+    }
+
+    .prestitle h2{
+      font-size: 140%;
+    }
+
+    .txtpresentation{
+      border: none;
+      width: 93%;
+      padding: 0.7em;
     }
     
     .gauche{
-      width: 100%;
-      padding: 0;
+      width: 93%;
+      padding: 0.7em;
+      border: none;
     }
-    .text-bas-page{
 
+    .txtbutton{
+      flex-direction: column;
+    }
+
+    .text-bas-page{
       font-size: 90%;
-    
+      text-align: center;
     }
 
     .competence-button {
@@ -833,7 +845,9 @@ a {
     }
 
     .button-bas-page{
-      width: 90%;
+      width: 50%;
+      margin: 0 auto;
+
     }
     /* fin page qui suis je ? */
 

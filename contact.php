@@ -51,7 +51,7 @@ include 'INC/header.php';
         <div class="containerdroite">
             <div class="container">
                 <h1 style="text-align: center;">Formulaire de contact</h1>
-                <form action="/action_page.php">
+                <form id="contactForm">
                     <label for="fname">Nom</label>
                     <input type="text" id="fname" name="firstname" placeholder="Votre nom">
 
